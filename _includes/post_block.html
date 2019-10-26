@@ -1,6 +1,6 @@
 <!-- Renders post date, title, and snippet of text. -->
 <div class="py-2 mb-2 prose">
-  <h2 class="h3 col-9 mb-0">
+  <h2 class="h3 lh-condensed mb-0">
     <a class="no-underline" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
   <p class="h5 block py-1 mb-1">{{ post.date | date: "%-d %B %Y" }}</p>
