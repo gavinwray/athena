@@ -1,16 +1,16 @@
 <header class="px-2 clearfix">
 
-  <div class="left-lg absolute-lg right-0 top-0">
-    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
-      <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-        <a class="h4 bold no-underline" href="{{ site.baseurl }}/">
+  <div class="right left-lg absolute-lg right-0 top-0">
+    <ul class="mt-2 mt-lg-2 mr-1 mr-lg-3">
+      <li class="inline-block text-right ml-2 ml-lg-0">
+        <a class="h5" href="{{ site.baseurl }}/">
           Home
         </a>
       </li>
       {% for my_page in site.pages %}
         {% if my_page.title %}
-        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-          <a class="no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+        <li class="inline-block text-right ml-1 ml-lg-3">
+          <a class="h5" href="{{ my_page.url | prepend: site.baseurl }}">
             {{ my_page.title }}
           </a>
         </li>
@@ -20,7 +20,7 @@
   </div>
 
   <div class="right-lg absolute-lg left-0 top-0 sm-width-full mt-2">
-      <span class="inline-block h4 bold ml-2 px-1">
+      <span class="inline-block h5 bold ml-0 ml-lg-3">
         <a href="{{ site.url }}">Gavin Wray</a>
       </span>
   </div>
