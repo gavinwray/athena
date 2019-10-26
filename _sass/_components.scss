@@ -23,6 +23,10 @@ code {
     margin-bottom: 1em;
     width: 100%;
 
+    @media (min-width: $breakpoint-lg) {
+      font-size: $prose-font-size-lg;
+    }
+
     // @media (min-width: $breakpoint-lg) {
     //   width: (10 / 12 * 100%); // matches col-10
     // }
