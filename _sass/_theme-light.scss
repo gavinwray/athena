@@ -1,14 +1,24 @@
 // White theme
 
 // Color variables
-$black: #2B2826;
-$gray-dark: #423F38;
-$gray: #A09992;
-$gray-light: #D7D5D1;
-$white: #fff;
-$burgundy: #B54545;
+// $black: #2B2826;
+// $gray-dark: #423F38;
+// $gray: #A09992;
+// $gray-light: #D7D5D1;
+// $white: #fff;
+// $burgundy: #B54545;
+
+// Gavin theme
+
+// Colour variables
+$black: #2b2d42;
+$gray-dark: #274c77;
+$gray-light: #e7ecef;
+$moccasin: #f7e4d9;
+
+
 // Config
-$color-background: $white !default;
+$color-background: $moccasin !default;
 $color-foreground: $black !default;
 $color-title: $black !default;
 $color-body-text: $black !default;
@@ -16,7 +26,7 @@ $color-text-accent: $gray-dark !default;
 $color-code: $gray-dark !default;
 $color-nav-link: $black !default;
 $color-primary-link: $black !default;
-$color-primary-underline: $gray !default;
+$color-primary-underline: $gray-dark !default;
 $color-border: $gray-light !default;
 
 
