@@ -3,7 +3,7 @@
 {% assign full_base_url = user_url | default: site.github.url %}
 {% if page.previous.url %}
   <div class="col-5 sm-width-full left mr-lg-4 mt-3">
-    <a class="no-underline-hover py-1 block" href="{{ page.previous.url | prepend: full_base_url }}">
+    <a class="py-1 block" href="{{ page.previous.url | prepend: full_base_url }}">
       <span>Previous article</span>
       <p class="bold h5 lh-condensed mb-1">{{ page.previous.title }}</p>
     </a>
@@ -11,7 +11,7 @@
   {% endif %}
   {% if page.next.url %}
   <div class="col-5 sm-width-full left mt-3">
-    <a class="no-underline-hover py-1 block" href="{{ page.next.url | prepend: full_base_url }}">
+    <a class="py-1 block" href="{{ page.next.url | prepend: full_base_url }}">
       <span>Next article</span>
       <p class="bold h5 lh-condensed mb-1">{{ page.next.title }}</p>
     </a>
